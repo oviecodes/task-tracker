@@ -1,0 +1,24 @@
+.delete_task{
+    display: none;
+    transition: all 10s ease-in linear !important
+}
+
+.task:hover .delete_task{
+    display: inline;
+    color:white;
+    background: red;
+    
+}
+
+.colorCheck{
+    color: green !important;
+}
+
+
+.hide{
+    display: none;
+}
+
+.display{
+    display: block;
+}
